@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 30%;
+    height: 150vh;
+    padding: 15px;
+    background-color: darkslategray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+form {
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 85%;
+    height: 100px;
+}
+
+.inp {
+    height: 40px;
+}
+
+.btn {
+    height: 40px;
+    background-color: gray;
+    border: none;
+}
+
+.btn:hover{
+    border: 1px solid black;
+    background-color: darkgray;
+}
+
+a {
+    margin: 0;
+    width: 70%;
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+}
