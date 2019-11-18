@@ -4,7 +4,7 @@ let formStatus = false;
 let btnStatus = false;
 let counter = 0;
 
-//use the e parameter to prevent the default event.
+//use the e parameter to prevent the default event and e.preventDefault.
 function changeBtnText(e) {
     e.preventDefault();
     counter++;
@@ -19,7 +19,7 @@ function changeBtnText(e) {
     }
 }
 
-//use the e parameter to prevent the default event.
+//use the e parameter to prevent the default event e.preventDefault.
 function stopFormSubmit(e) {
     e.preventDefault();
     counter++;

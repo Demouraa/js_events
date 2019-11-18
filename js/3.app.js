@@ -15,8 +15,6 @@ function message() {
 function aMessage () {
     alert("Hello Second");
 };
-
 //You can´t remove a eventListener if the function was defined inside the addEventListener method.
-
 document.querySelector("input").removeEventListener("click", aMessage);
 document.querySelector("input").removeEventListener("click", message);

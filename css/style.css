@@ -3,6 +3,9 @@ body {
     font-size: 30px;
     height: 100vh;
     background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menu-btn{
